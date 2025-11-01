@@ -18,6 +18,5 @@ def solution(prices):
         idx = stack.pop()
         answer[idx] = n - 1 - idx
         # 가격이 끝까지 유지된 시간을 처리
-
     return answer
 
